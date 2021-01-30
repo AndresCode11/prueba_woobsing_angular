@@ -7,7 +7,6 @@ import { MainComponent } from './main/main.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
     ModalModule.forRoot(),
     HttpClientModule,
     ReactiveFormsModule,
-    LoadingBarHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
