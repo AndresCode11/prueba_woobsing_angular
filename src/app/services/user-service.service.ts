@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class UserServiceService {
 
   // END POINT
-  private API_END_POINT: string = 'http://127.0.0.1:8000/api';
+  private API_END_POINT: string = 'http://64.227.81.127:8000/api';
   
   // CRUD URLS
   private getAllUsersUrl: string;

@@ -64,7 +64,9 @@ export class MainComponent implements OnInit {
             this.getAllUsers();
             this.createForm.reset();
         },
-        (error) => {}
+        (error) => {
+	   alert('Verifica la informacion introducida, todos los campos son obligatiorios');
+	}
       );
   }
   
@@ -97,7 +99,9 @@ export class MainComponent implements OnInit {
             this.getAllUsers();
             this.createForm.reset();
         },
-        (error) => {}
+        (error) => {
+	    alert('Verifica la informacion introducida, todos los campos son obligatorios');
+	}
       );
   }
 
